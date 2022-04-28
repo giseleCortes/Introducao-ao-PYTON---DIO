@@ -34,3 +34,5 @@ else:
 
 
 # mas esse código tem um erro, se digitar errado uma segunda fez ele passa para a proxima opção
+
+# correção a desse "bug" no AU4-1
