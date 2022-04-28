@@ -23,3 +23,21 @@ if div == 2:
     print('Numero {} é primo'.format(a))
 else:
     print('Numero  {} não é primo' .format(a))
+
+#o programa acima informa se o numero do declarado é primo ou não
+# no programa a baixo vamos identificar quais numero são primos até o numero declarado no imput
+
+a = int(input('Entre com um valor: '))
+for num in range(a+1):
+    div = 0
+
+    for x in range(1, num+1):
+        resto = num % x
+
+        if resto == 0:
+            div += 1
+    if div == 2:
+        print(num)
+
+
+
