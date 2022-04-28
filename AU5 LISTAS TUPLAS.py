@@ -48,3 +48,38 @@ print(lista_animal)
 
 lista_animal.pop(2) #declarando ele segue o indice(da lista original nesse caso aqui)
 print(lista_animal)
+
+#caso queira excluir um elemento que voce ja conhece pode-se usar o .remove
+
+lista_animal.remove('cachorro')
+print(lista_animal)
+
+#ORDENANDO AS LISTAS .sort() .reverse()
+animal_list = ['cachorro', 'gato', 'elefante', 'lobo', 'arara']
+numeral_list = [5, 0, 33, 8, 94, 1]
+
+#crescente
+animal_list.sort()
+numeral_list.sort()
+
+print(animal_list, numeral_list)
+
+#decrescente
+animal_list.reverse()
+numeral_list.reverse()
+print(animal_list, numeral_list)
+
+
+#substituir um indice especifico na lista
+
+animais = [ 'cachorro', 'gato', 'jacaré', 'tatu']
+print(animais)
+animais [2] = 'zebra'
+print(animais)
+
+
+#verificar quantos elementos(indices) tem em uma lista > len
+
+
+
+print(len(animais))
