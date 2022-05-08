@@ -72,6 +72,12 @@ print('A é um superconjunto de B: {}'.format(conjunto_superset))
 
 # Como converter uma lista em conjunto
 # pode ser utilizado para retirar duplicidade de dados
+lista = ['cachorro', 'cachorro', 'gato', 'gato', 'rato', 'rato', 'ema', 'ema']
+print(lista)
+conjunto_animais = set(lista) # transformou a lista em conjunto
+print(conjunto_animais)
+lista_animais = list(conjunto_animais) # transforma o conjunto em lista
+print(lista_animais)
 
 
 
