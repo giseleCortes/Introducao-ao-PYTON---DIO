@@ -21,7 +21,7 @@ conjuntoA = {1, 2, 3, 4, }
 conjuntoB = {4, 5, 6, 7, 8, }
 
 uniao_conjuntos = conjuntoA.union(conjuntoB)
-print('União entre A e B: {}' .format(uniao_conjuntos))  # retira a duplicidade
+print('União entre A e B: {}'.format(uniao_conjuntos))  # retira a duplicidade
 
 uniao_conjuntos = conjuntoB.union(conjuntoA)
 print('União entre B e A: {}'.format(uniao_conjuntos))
@@ -49,8 +49,29 @@ conjunto_diff_simetrica = conjuntoB.symmetric_difference(conjuntoA)
 print('Diferença Simétrica: {}'.format(conjunto_diff_simetrica))
 print('Retirou o 4 o elemento que se repetia em ambos conjuntos')
 
+# subset  .issubset
+# utilizado para saber se um conjunto pertence a outro
 
+conjunto_A = {1, 2, 3}
+conjunto_B = {1, 2, 3, 4, 5}
+conjunto_subset = conjunto_A.issubset(conjunto_B)
+print('A é um subconjunto de B: {}'.format(conjunto_subset))
+# sim os elementos do conjuto A estão dentro do conjunto B, mas e ao contrário?
+conjunto_subset = conjunto_B.issubset(conjunto_A)
+print('B é um subconjunto de A: {}'.format(conjunto_subset))
+# não porque ha elementos no conjunto B que não fazer parte do conjunto A
 
+# superset .issuperset
+# é meio que ao contrário do que acontece no subset
+
+conjunto_superset = conjunto_B.issuperset(conjunto_A)
+print('B é um superconjunto de A: {}'.format(conjunto_superset))
+# sim o conjunto B é um superconjunto do conjunto A pois ele tem todos os elementos do conjunto A
+conjunto_superset = conjunto_A.issuperset(conjunto_B)
+print('A é um superconjunto de B: {}'.format(conjunto_superset))
+
+# Como converter uma lista em conjunto
+# pode ser utilizado para retirar duplicidade de dados
 
 
 
