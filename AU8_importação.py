@@ -31,9 +31,9 @@
 # as formas acima são utilizadas para chamar o modulo pelo console mas podemos chamar o modulo dentro do proprio arquivo
 # no inicio da pagina digitamos
 
-from AU7-3 televisao import Televisao # o nome dos arquivos estao com espaço por isso da erro nesse caso.
+# from AU7-3 televisao import Televisao # o nome dos arquivos estao com espaço por isso da erro nesse caso.
                                       # lembrar sempre de utilizar o underscore(underline)
 # e depois basta estanciar a classe
-televisao = Televisao ()
+# televisao = Televisao ()
 
 
