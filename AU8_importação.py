@@ -36,4 +36,6 @@
 # e depois basta estanciar a classe
 # televisao = Televisao ()
 
+# é possivel realizar importação de metodos tbm utilizano from e mais de um metodo separando por virgula
+
 
