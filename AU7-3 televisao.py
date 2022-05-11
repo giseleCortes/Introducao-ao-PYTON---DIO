@@ -17,12 +17,13 @@ class Televisao:
         if self.ligada:
             self.channel -= 1
 
+if __name__ == '__main__':
 
-televisao = Televisao()
+    televisao = Televisao()
 
-print('Televisão está ligada: {}'.format(televisao.ligada))
-televisao.power()
-print('Televisão está ligada: {}'.format(televisao.ligada))
-televisao.power()
-print('Televisão está ligada: {}'.format(televisao.ligada))
-print('Channel: {}' .format(televisao.channel))
+    print('Televisão está ligada: {}'.format(televisao.ligada))
+    televisao.power()
+    print('Televisão está ligada: {}'.format(televisao.ligada))
+    televisao.power()
+    print('Televisão está ligada: {}'.format(televisao.ligada))
+    print('Channel: {}' .format(televisao.channel))
